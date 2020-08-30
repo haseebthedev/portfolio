@@ -496,6 +496,18 @@ footer .footer {
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
 
+@media (max-width: 390px) {
+    .about_buttons a {
+        padding: 8px 12px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .ro_details p:first-child {
+        width: 78px;
+    }
+}
+
 @media (max-width: 780px) {
     section .about {
         display: block;
