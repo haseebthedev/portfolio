@@ -221,49 +221,49 @@ section .portfolio {
 
 .project1 {
     background-image: linear-gradient(to right bottom, #f9ca24, rgba(0, 0, 197, 0.3)), 
-        url(assets/images/BankManagement.png);
+        url('./assets/images/BankManagement.png');
     background-size: cover;
     background-position: top;
 } 
 
 .project2 {
-    background-image: linear-gradient(to right bottom, #eb4d4b, rgba(0, 0, 197, 0.3)), url(assets/images/centuryDigger.png);
+    background-image: linear-gradient(to right bottom, #eb4d4b, rgba(0, 0, 197, 0.3)), url('./assets/images/centuryDigger.png');
     background-size: cover;
     background-position: left;
 } 
 
 .project3 {
-    background-image: linear-gradient(to right bottom, #e28316, rgba(0, 0, 197, 0.3)), url(assets/images/MySQL.png);
+    background-image: linear-gradient(to right bottom, #e28316, rgba(0, 0, 197, 0.3)), url('./assets/images/MySQL.png');
     background-size: cover;
     background-position: right;
 } 
 
 .project4 {
-    background-image: linear-gradient(to right bottom, #6ab04c, rgba(0, 0, 197, 0.3)), url(assets/images/pollavote.jpg);
+    background-image: linear-gradient(to right bottom, #6ab04c, rgba(0, 0, 197, 0.3)), url('./assets/images/pollavote.jpg');
     background-size: cover;
     background-position: top;
 } 
 
 .project5 {
-    background-image: linear-gradient(to right bottom, #106a8df8, rgba(0, 0, 197, 0.3)), url(assets/images/chatcord.png);
+    background-image: linear-gradient(to right bottom, #106a8df8, rgba(0, 0, 197, 0.3)), url('./assets/images/chatcord.png');
     background-size: cover;
     background-position: left;
 } 
 
 .project6 {
-    background-image: linear-gradient(to right bottom, #e056fd, rgba(0, 0, 197, 0.3)), url(assets/images/client-server.png);
+    background-image: linear-gradient(to right bottom, #e056fd, rgba(0, 0, 197, 0.3)), url('./assets/images/client-server.png');
     background-size: cover;
     background-position: right;
 } 
 
 .project7 {
-    background-image: linear-gradient(to right bottom, #686de0, rgba(0, 0, 197, 0.3)), url(assets/images/recyclerview.png);
+    background-image: linear-gradient(to right bottom, #686de0, rgba(0, 0, 197, 0.3)), url('./assets/images/recyclerview.png');
     background-size: cover;
     background-position: left;
 } 
 
 .project8 {
-    background-image: linear-gradient(to right bottom, #30336b, rgba(0, 0, 197, 0.3)), url(assets/images/infinity.png);
+    background-image: linear-gradient(to right bottom, #30336b, rgba(0, 0, 197, 0.3)), url('./assets/images/infinity.png');
     background-size: cover;
     background-position: center;
 } 
