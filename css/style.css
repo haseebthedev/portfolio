@@ -494,6 +494,19 @@ footer .footer {
     border-bottom: 3px solid #e61b1b;
 }
 
+li ion-icon {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-icon:hover {
+    font-size: 26px;
+    color: rgba(134, 29, 231, 1);
+}
+
+
 /* MEDIA QUERIES FOR RESPONSIVENESS */
 
 @media (max-width: 390px) {
