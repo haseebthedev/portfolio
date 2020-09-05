@@ -379,6 +379,11 @@ section .reviews {
     background-color: rgba(226, 226, 226, 0.171);
 }
 
+.client_details p {
+    color: rgb(90, 89, 89);
+    font-size: 14px;
+}
+
 /* CONTACT */
 
 section .contact {
@@ -494,7 +499,7 @@ footer .footer {
     border-bottom: 3px solid #e61b1b;
 }
 
-li ion-icon {
+/* li ion-icon {
     font-size: 24px;
     display: flex;
     justify-content: center;
@@ -504,7 +509,7 @@ li ion-icon {
 ion-icon:hover {
     font-size: 26px;
     color: rgba(134, 29, 231, 1);
-}
+} */
 
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
