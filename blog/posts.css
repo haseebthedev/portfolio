@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+section .blog_posts {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog_head {
+    height: 45vh;
+    color: #FFF;
+    background-image: linear-gradient(to right bottom, 
+        rgba(109, 109, 109, .8), 
+        rgba(52, 42, 58, .8)), 
+        url("./blog.jpg");
+    background-position: center;
+    background-size: cover;
+
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog_head > div > h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.tags {
+    text-align: center;
+}
+
+.tags span {
+    color: #e1e1e1;
+    font-size: .8rem;
+    margin: 3px;
+    transition: all 0.4s ease-in-out;
+}
+
+.tags span:hover {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.blog_posts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.post {
+    width: 300px;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif; 
+    border-radius: 5px;
+    margin: 30px 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+}
+
+.post-thumbnail {
+    background-image: url('./post1/java.jpg');
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.post_info {
+    padding: 0 15px;
+    margin: 20px 0 5px 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.post_info div {
+    font-size: small;
+    text-transform: capitalize;
+    margin: 0px 6px 0px 0px;
+    font-family: 'Open Sans', sans-serif; 
+    color: rgb(102, 102, 102);
+}
+
+.title, .description {
+    padding: 0px 15px;
+    margin: 10px 4px;
+}
+
+.title p {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(68, 68, 68);
+}
+
+.description p {
+    color: rgb(82, 82, 82);
+    font-family: 'Open Sans', sans-serif; 
+    text-align: justify;
+}
+
+.read_button {
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    padding: 6px 0;
+    margin-top: 15px;
+    border-radius: 0px 0px 5px 5px;
+    transition: all 0.2s ease-in;
+}
+
+.read_button > a {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.read_button:hover {
+    background-color: rgba(134, 29, 231, 1);
+}
