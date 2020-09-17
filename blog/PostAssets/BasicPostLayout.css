@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Source+Sans+Pro&display=swap');
+
+h1 {
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    font-size: 30;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.postCredentials {
+    margin-top: 80px;
+}
+
+.postHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(134, 29, 231, .9), rgba(134, 29, 231, .8)), url('./postHeaderImage.jpg');
+    background-position: center;
+    height: 180px;
+}
+
+.postHeader h1 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.post_info {
+    margin-top: 10px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post_info div {
+    margin: 0px 6px 0px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.postBody {
+    margin: 20px 0;
+    padding: 5px 60px;
+}
+
+.postBody .postImage {
+    display: flex;
+    justify-content: center;
+}
+
+.postBody img {
+    width: 80%;
+}
+
+.postBody h2 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.postBody p {
+    margin-bottom: 20px;
+}

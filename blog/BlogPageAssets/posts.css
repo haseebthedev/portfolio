@@ -14,7 +14,7 @@ section .blog_posts {
 }
 
 .blog_head {
-    height: 45vh;
+    height: 35vh;
     color: #FFF;
     background-image: linear-gradient(to right bottom, 
         rgba(109, 109, 109, .8), 
@@ -68,7 +68,7 @@ section .blog_posts {
 }
 
 .post-thumbnail {
-    background-image: url('./post1/java.jpg');
+    background-image: linear-gradient(to right bottom, grey, lightgrey);
     height: 200px;
     background-position: center;
     background-size: cover;
@@ -121,6 +121,7 @@ section .blog_posts {
 }
 
 .read_button > a {
+    padding: 0 100px;
     font-size: 14px;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -128,4 +129,10 @@ section .blog_posts {
 
 .read_button:hover {
     background-color: rgba(134, 29, 231, 1);
+}
+
+/* POST THUMBNAILS HERE */
+
+.post1 {
+    background-image: url('../roadmap-to-frontend-development.png');
 }
